@@ -6,10 +6,12 @@ https://laravel.com/docs/7.x/passport#installation
 
 // use UUIDs instead of auto-incrementing integers as the Passport Client model's primary key values.
 
+docker exec -it php bash
+
+php artisan migrate  
 composer require laravel/passport "~9.0"  
 php artisan migrate  
 php artisan passport:install --uuids
-php artisan passport:install
 php artisan passport:keys
 
 After running the passport:install command, add the Laravel\Passport\HasApiTokens trait to your App\User model
