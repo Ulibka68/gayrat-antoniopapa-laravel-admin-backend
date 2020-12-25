@@ -15,3 +15,6 @@ NGINX натсроен на хостинг hello.loc
 
 docker exec -it php bash
 composer create-project --prefer-dist laravel/laravel:^7.0 hello
+
+Проверка - Laravel:  
+http://hello.loc:8080/
