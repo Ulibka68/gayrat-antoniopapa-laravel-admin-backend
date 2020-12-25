@@ -18,3 +18,7 @@ class User extends Authenticatable
 {
 use HasApiTokens, Notifiable;
 }
+
+https://www.positronx.io/laravel-rest-api-with-passport-authentication-tutorial/
+
+php artisan key:generate
